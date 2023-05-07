@@ -11,7 +11,7 @@ const getSum = () => {
 		total += Number.parseInt(item.innerHTML);
 	});
 
-	tr.innerHTML = `<td>${total}</td>`;
+	tr.innerHTML = `<td id="ans">${total}</td>`;
 	document.querySelector('table').appendChild(tr);
 };
 
